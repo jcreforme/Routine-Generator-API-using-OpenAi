@@ -3,12 +3,15 @@
 A FastAPI-based application that uses OpenAI's GPT-4 model to generate personalized workout routines based on user goals and experience levels.
 
 ![WhatsApp Image 2025-08-09 at 5 48 20 PM](https://github.com/user-attachments/assets/02fc83b3-5785-47ac-bb19-4a6a8c575863)
+![WhatsApp Image 2025-08-09 at 5 49 12 PM](https://github.com/user-attachments/assets/a092febf-e567-4b79-a8e4-905bec41af91)
+![WhatsApp Image 2025-08-09 at 5 49 53 PM](https://github.com/user-attachments/assets/a8f11e22-d260-4144-a33b-03170638679a)
 
 ## Features
 
 - Generates workout routines tailored to user goals (e.g., weight loss, strength training).
 - Supports different experience levels (e.g., beginner, intermediate, advanced).
 - Leverages OpenAI's GPT-4 model for intelligent and detailed responses.
+- Get exercise from a Database (e.g., Pierna, Abdomen, Pecho)
 
 ## Requirements
 
