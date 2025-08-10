@@ -1,0 +1,4 @@
+fitness_saas/
+├── main.py
+├── openai_client.py
+└── routine_generator.py

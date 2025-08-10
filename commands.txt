@@ -1,0 +1,31 @@
+## Running standalone
+
+Run FastAPI with Uvicorn
+Use the following command to start your FastAPI app:
+
+vicorn main:app --reload
+
+http://localhost:8000/docs
+
+
+(venv) juans-MacBook-Pro:fir_gym_rutines_generator jcarlo$ python routine_generator.py
+Codificación por defecto: utf-8
+❌ Error. Detalles guardados en error_log.txt
+Mensaje: RateLimitError("Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}")
+❌ Error. Detalles guardados en error_log.txt
+Mensaje: write() argument must be str, not None
+(venv) juans-MacBook-Pro:fir_gym_rutines_generator jcarlo$ python routine_generator_offline.py
+Codificación por defecto: utf-8
+✅ Rutina generada y guardada en rutina.txt
+
+
+-------------------
+
+fetch SOAP form "https://fitcron.com/exercises/"
+How to Run:
+Install the required libraries:
+pip install requests beautifulsoup4
+pip install selenium beautifulsoup4
+
+Run the script:
+python BeautifulSoup.py
